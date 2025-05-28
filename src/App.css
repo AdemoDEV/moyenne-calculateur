@@ -228,5 +228,63 @@ body {
   }
 }
 
+/* RESPONSIVE MOBILE REWORK */
+@media (max-width: 600px) {
+  .container {
+    padding: 20px;
+    margin: 20px;
+    border-radius: 12px;
+  }
+
+  .title {
+    font-size: 1.4em;
+    margin-bottom: 10px;
+  }
+
+  .intro {
+    font-size: 0.95em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    padding: 0 10px;
+  }
+
+  .inputs {
+    flex-direction: column;
+    gap: 12px;
+    width: 100%;
+  }
+
+  .input,
+  .select {
+    width: 100%;
+    padding: 12px;
+    font-size: 1em;
+  }
+
+  .button {
+    width: 100%;
+    padding: 14px;
+    font-size: 1em;
+  }
+
+  .notes-list {
+    font-size: 1em;
+    margin-top: 15px;
+  }
+
+  .moyenne-section {
+    margin-top: 20px;
+  }
+
+  .result {
+    font-size: 1.3em;
+    margin-top: 20px;
+  }
+
+  .dark-toggle {
+    margin-bottom: 20px;
+    font-size: 1em;
+  }
+}
 
 
